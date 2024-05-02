@@ -1,0 +1,45 @@
+
+
+
+* body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: tan;
+}
+
+* div {
+    display: inline-block;
+}
+
+
+.header-bar {
+    font-size: 30px;
+    box-sizing: border-box;
+    background-color: aqua;
+    color: red;
+    width: 100%;
+    margin: auto;
+ 
+    text-align: center;
+}
+
+.recipe-card-box {
+    width: 100%;
+    text-align: center;
+
+}
+
+#single-card {
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 33%;
+    height: 300px;
+    
+    
+}
+
+a:visited {
+    color: wheat;
+}
