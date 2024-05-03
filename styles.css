@@ -6,40 +6,98 @@
     background-color: tan;
 }
 
-* div {
+/* * div {
     display: inline-block;
-}
+} */
 
 
 .header-bar {
-    font-size: 30px;
+    font-size: 38px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
     box-sizing: border-box;
     background-color: aqua;
-    color: red;
+    border: 5px solid black;
+    color: rgb(255, 0, 98);
     width: 100%;
     margin: auto;
- 
+    max-width: 1530px;
     text-align: center;
+    display: flex;
+    align-items: center;
+
+
 }
 
 .recipe-card-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 15px;
+   
+    box-sizing: border-box;
     width: 100%;
     text-align: center;
-
+    padding-top: 15px;
+    
 }
 
-#single-card {
-    display: inline-block;
+.single-card {
+    display: flex;
+    /* flex-direction: column; */
+    box-sizing: border-box;
     font-size: 24px;
     text-align: center;
-    background-color: red;
+    background-color: rgb(255, 0, 98);
+    border: 5px solid black;
     color: white;
-    width: 33%;
-    height: 300px;
+    /* width: 450px; */
+    height: 350px;
+    /* padding: 3px; */
+    flex-grow: 1;
+    flex-basis: 160px;
+    max-width: 450px;
+   
+   align-items: center;
+   align-content: space-evenly;
+    
     
     
 }
+
+#one #two #three {
+    width: 450px;
+    height: 350px;
+    display: flex;
+    /* flex-direction: column; */
+    flex: auto;
+    gap: 5px;
+    /* justify-content: space-between; */
+    /* align-self: stretch; */
+
+}
+
+#smiley-pic {
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 350px;
+    flex: auto;
+}
+
+.card-title .card-img {
+    align-self: flex-end;
+    flex: auto;
+}
+
+h1,h2 {
+    flex: auto;
+    
+}
+
 
 a:visited {
     color: wheat;
 }
+
